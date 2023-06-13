@@ -104,7 +104,7 @@ The app supports sharing files with others by assigning unique identifiers and e
 Uploaded files are validated based on their MIME types and extensions to prevent uploading unsupported or malicious files.
 
 # Things That Can Be Improved
-## Error Logging
+## Error Logging
 Integration of error logging to catch the possible errors. For example, under Logs folder there may be .log files in the schema of YYYY-MM-DD that contains try-catch errors.
 ## File Search
 There may be a search bar on the UI connecting to an endpoint, providing name or GUID to search the files.
