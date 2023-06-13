@@ -1,0 +1,53 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.upload-section .form-group {
+  margin-bottom: 10px;
+}
+
+.upload-section label {
+  display: block;
+  font-weight: bold;
+}
+
+.upload-section input[type="file"],
+.upload-section input[type="text"],
+.upload-section input[type="number"],
+.upload-section button {
+  width: 100%;
+  padding: 5px;
+}
+
+.upload-section button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-section button:hover {
+  background-color: #45a049;
+}
