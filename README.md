@@ -18,9 +18,8 @@ cd ClientApp && npm install
 cd ..
 dotnet run
 ```
-<span style="color:red;font-weight:bold;">
-Please note that the initial start may take longer than usual as it sets up the dependencies. Also, ensure that you have .NET 6.0 installed on your system.
-</span>
+
+**Please note that the initial start may take longer than usual as it sets up the dependencies. Also, ensure that you have .NET 6.0 installed on your system.**
 
 # How to Test
 ## Post Run
@@ -42,7 +41,7 @@ SELECT * FROM files;
 [x] Clicking the 'Preview' link of the uploaded files will show you the first page of the file.<br>
 
 ## Downloading a File
-[x] If a file is shareable, you'll see 'Download' link at the action section. Clicking 'Download' link both will make you download the file and will increase the downloadCount by one <span style="color:red;font-weight:bold;">only if the expire date of the file is ahead of the current time.</span>
+[x] If a file is shareable, you'll see 'Download' link at the action section. Clicking 'Download' link both will make you download the file and will increase the downloadCount by one **only if the expire date of the file is ahead of the current time.**
 
 # Application Architecture Description  
 This application follows a modern and user-friendly architecture, using React and React Bootstrap to create a simple and intuitive file management system. The architecture focuses on being easy to use, reusable, and providing a smooth experience for users.
